@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./index.js";
+import "./components/input.jsx";
+import "./components/account/Register.jsx";
+
+// import { BrowserRouter as Router, Route } from "react-router-dom"; //chat gpt give
+import Navebar from "./components/Navebar";
+import Hero from "./components/hero";
+import Login from "./components/account/login";
+import Register from "./components/account/Register";
+import { Route, Routes } from "react-router-dom";
+// import Input from "./components/Input";
+
+// import Inputs from "./components/input.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navebar />
+      <Hero />
+
+      <Routes>
+        <Route path="/Login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+      </Routes>
+    </>
   );
 }
 

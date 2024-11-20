@@ -1,0 +1,97 @@
+.foam-div {
+  background-color: #4070f4;
+  padding: 30px;
+}
+.foamset {
+  background-color: rgb(243, 246, 248);
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  border-radius: 8px;
+  padding: 30px;
+}
+.cen-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fontsetpass {
+  color: black;
+}
+.login-button-set {
+  border-radius: 8px;
+  color: white;
+  background: #0171d3;
+  width: 20%;
+  margin: auto;
+  border: none;
+  padding: 10px;
+}
+.signup-button-set {
+  border-radius: 8px;
+  color: white;
+  background: #0171d3;
+  width: 20%;
+  margin: auto;
+  margin-top: 20px;
+  border: none;
+  padding: 10px;
+}
+.set-input {
+  width: 60%;
+  margin: auto;
+  margin-top: 15px;
+  padding: 9px;
+}
+
+.parent {
+  display: flex;
+}
+.child1 {
+  rotate: 90deg;
+  /* width: 100%; */
+}
+.pos-set {
+  /* position dyny sy yah foam sy bahir nikal jatty a */
+  /* position: relative; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0171d3;
+  width: 60%;
+  margin: auto;
+  border: none;
+  padding: 0;
+  border-radius: 15px;
+  gap: 10px;
+}
+
+.iconset {
+  /* position: absolute; */
+  color: aliceblue;
+  font-size: x-large;
+}
+.font-set {
+  color: white;
+}
+.googlelogin {
+  /* position dyny sy yah foam sy bahir nikal jatty a */
+  /* position: relative; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #d1d4d6;
+  width: 60%;
+  margin: auto;
+  border: none;
+  padding: 0;
+  border-radius: 15px;
+  gap: 10px;
+  margin-top: 15px;
+  color: rgb(153, 146, 146);
+}
+/* .child {
+  position: absolute;
+} */
